@@ -28,9 +28,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dapuck/node-simple-spinner.git"
+    "url": "https://github.com/ivangabriele/loading-spinner"
   },
-  "homepage": "https://github.com/dapuck/node-simple-spinner",
+  "homepage": "https://github.com/ivangabriele/loading-spinner",
   "dependencies": {
     "ansi": "^0.3.0"
   },
