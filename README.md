@@ -9,8 +9,6 @@ Loading spinner for NodeJS.
 [![David](https://img.shields.io/david/ivangabriele/loading-spinner.svg?style=flat-square)](https://david-dm.org/ivangabriele/loading-spinner)
 [![David](https://img.shields.io/david/dev/ivangabriele/loading-spinner.svg?style=flat-square)](https://david-dm.org/ivangabriele/loading-spinner)
 
-[![NSP Status](https://nodesecurity.io/orgs/ivan-gabriele/projects/3580757b-0c3f-443e-b4b0-f861e15d52ad/badge)](https://nodesecurity.io/orgs/ivan-gabriele/projects/3580757b-0c3f-443e-b4b0-f861e15d52ad)
-
 ---
 
 ## Installation
