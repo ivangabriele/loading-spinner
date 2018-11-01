@@ -3,6 +3,7 @@
 Loading spinner for NodeJS.
 
 [![NPM](https://nodei.co/npm/loading-spinner.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/loading-spinner/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner?ref=badge_shield)
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Travis](https://img.shields.io/travis/ivangabriele/loading-spinner.svg?style=flat-square)](https://travis-ci.org/ivangabriele/loading-spinner)
@@ -61,3 +62,7 @@ Loading spinner for NodeJS.
     };
 
     legend();
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner?ref=badge_large)
