@@ -16,7 +16,7 @@ Loading spinner for NodeJS.
 
 ## Installation
 
-    npm install loading-spinner --save
+    npm install --save loading-spinner
 
 ## Usage
 
@@ -62,3 +62,7 @@ Loading spinner for NodeJS.
     };
 
     legend();
+
+## Licenses
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivangabriele%2Floading-spinner?ref=badge_large)
