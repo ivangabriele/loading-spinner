@@ -1,6 +1,6 @@
 {
   "name": "loading-spinner",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Loading spinner for NodeJS.",
   "license": "MIT",
   "main": "./lib/loading-spinner",
