@@ -20,48 +20,52 @@ Loading spinner for NodeJS.
 
 ## Usage
 
-    var loadingSpinner = require('loading-spinner');
+```js
+var loadingSpinner = require('loading-spinner');
 
-    // Start the loading spinner
-    loadingSpinner.start(
-      [Integer, default: 100], // Interval (in ms) between each spinner sequence element
-      {
-        clearChar:  [Boolean, default: false], // Clear the spinner when stop() is called
-        clearLine:  [Boolean, default: false], // Clear the entire line when stop() is called
-        doNotBlock: [Boolean, default: false], // Does not prevent the process from exiting
-        hideCursor: [Boolean, default: false]  // Hide the cursor until stop() is called
-      }
-    );
+// Start the loading spinner
+loadingSpinner.start(
+  [Integer, default: 100], // Interval (in ms) between each spinner sequence element
+  {
+    clearChar:  [Boolean, default: false], // Clear the spinner when stop() is called
+    clearLine:  [Boolean, default: false], // Clear the entire line when stop() is called
+    doNotBlock: [Boolean, default: false], // Does not prevent the process from exiting
+    hideCursor: [Boolean, default: false]  // Hide the cursor until stop() is called
+  }
+);
 
-    // Stop the loading spinner
-    loadingSpinner.stop();
+// Stop the loading spinner
+loadingSpinner.stop();
 
-    // Customize the spinner sequence
-    loadingSpinner.setSequence(
-      [Array, default: ['|','/','-','\\']], // Sequence of spinner elements
-    );
+// Customize the spinner sequence
+loadingSpinner.setSequence(
+  [Array, default: ['|','/','-','\\']], // Sequence of spinner elements
+);
+```
 
 ## Example
 
-    var loadingSpinner = require('loading-spinner');
+```js
+var loadingSpinner = require('loading-spinner');
 
-    var dary = function() {
-      loadingSpinner.stop();
+var dary = function() {
+  loadingSpinner.stop();
 
-      process.stdout.write('DA-RY !');
-    };
+  process.stdout.write('DA-RY !');
+};
 
-    var legend = function() {
-      process.stdout.write('It\'s gonna be LE-GEN... Wait for it... ');
+var legend = function() {
+  process.stdout.write('It\'s gonna be LE-GEN... Wait for it... ');
 
-      loadingSpinner.start(100, {
-        clearChar: true
-      });
+  loadingSpinner.start(100, {
+    clearChar: true
+  });
 
-      setTimeout(dary, 1000);
-    };
+  setTimeout(dary, 1000);
+};
 
-    legend();
+legend();
+```
 
 ## Licenses
 
